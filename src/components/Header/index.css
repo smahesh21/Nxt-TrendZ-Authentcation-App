@@ -1,0 +1,94 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.website-logo {
+  height: 30px;
+  width: 50px;
+  margin-top: 16px;
+}
+.text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+.header-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+  margin-right: 16px;
+}
+.logout-button {
+  height: 25px;
+  width: 80px;
+  border: none;
+  background-color: blue;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.home-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.product-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.cart-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.logout-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .nav-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: aliceblue;
+  }
+  .website-logo {
+    height: 25px;
+    width: 40px;
+  }
+  .header-text {
+    display: none;
+  }
+  .logout-button {
+    display: none;
+    margin-right: 16px;
+  }
+  .home-icon {
+    display: block;
+    margin-right: 16px;
+  }
+  .product-icon {
+    display: block;
+    margin-right: 16px;
+  }
+  .cart-icon {
+    display: block;
+    margin-right: 16px;
+  }
+  .logout-icon {
+    display: block;
+  }
+}

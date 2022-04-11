@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.home-container {
+  height: 100vh;
+}
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+.shop-now {
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+}
+.clothes-image {
+  height: 75%;
+  width: 40%;
+}
+.clothes-image-small {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .product-container {
+    padding: 20px;
+  }
+  .product-details-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .clothes-image {
+    display: none;
+  }
+  .clothes-image-small {
+    display: block;
+    height: 40%;
+    width: 80%;
+  }
+  .description {
+    font-size: 16px;
+    text-align: center;
+  }
+}
